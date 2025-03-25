@@ -614,16 +614,13 @@ function App() {
                   <h4 className="font-semibold mb-2 text-purple-500">RACE PLAN:</h4>
                   <ol className="space-y-3 pl-4 list-decimal">
                     <li className="flex items-start gap-2">
-                      <span className="mt-1">1. Ngày đầu (chèo) chúng ta sẽ mặc áo team BÉT (Oxalis cung cấp) dài tay. Vì toàn bộ sông sẽ dưới nắng nên cần cẩn thận.</span>
+                      <span className="mt-1">1. Hai ngày Race chúng ta sẽ mặc áo Team BÉT của Oxalis. Lưu ý cả 2 áo sẽ là áo ngắn tay nên ngày đầu có thể mặc thêm áo bới tay dài bên trong hoặc cả 2 ngày đeo Sleevers.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1">2. Đồ ăn ngày đầu Oxalis cung cấp lấy vừa đủ, để lại đồ không cần thiết. Chủ động 2 người 1 phần là được. Bỏ vào Dry-Bag của team.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1">3. Lúc chèo chúng ta đi giày sandal, bỏ giày trail vào dry-bag của Oxalis (lớn hơn). Khi chuyển chèo qua chạy, chúng ta đổi giày</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="mt-1">4. Ngày 2 chúng ta mặc áo tay ngắn team BÉT, đeo sleevers, để có thể thoải mái khi vô vào khu vực bóng râm</span>
                     </li>
                   </ol>
                 </div>
@@ -645,20 +642,59 @@ function App() {
                 </div>
 
                 {/* HÀNH LÝ Section */}
-                <h4 className="font-semibold mb-2 text-purple-500">HÀNH LÝ</h4>
-                <div className="text-gray-700">
-                  <p>Mỗi thành viên được mang theo:</p>
-                  <ul className="space-y-2 pl-4 mt-2">
-                    <li className="flex items-center gap-2">
-                      <CheckSquare className="w-4 h-4 text-purple-600" />
-                      1 kiện 7kg xách tay
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckSquare className="w-4 h-4 text-purple-600" />
-                      1 kiện 10kg ký gửi
-                    </li>
-                  </ul>
-                  <p className="mt-2 italic text-sm">Trường hợp hành lý nhiều hơn số kg quy định, thành viên tự deal với Buddy của mình nhe</p>
+                <div>
+                  <h4 className="font-semibold mb-2 text-purple-500">ÁO TEAM</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+                    <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                      <img 
+                        src="https://theflagship.asia/uploader/uploads/o-teamlay.jpg" 
+                        alt="Team Jersey 1" 
+                        className="w-full h-48 object-cover"
+                      />
+                      <div className="p-3 text-center text-sm font-medium text-gray-700">
+                        Áo Team Lầy
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                      <img 
+                        src="https://theflagship.asia/uploader/uploads/o-bt.jpg" 
+                        alt="Team Jersey 2" 
+                        className="w-full h-48 object-cover"
+                      />
+                      <div className="p-3 text-center text-sm font-medium text-gray-700">
+                        Áo TLR Team BÉT
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                      <img 
+                        src="https://theflagship.asia/uploader/uploads/o-gala-bt.png" 
+                        alt="Team Jersey 3" 
+                        className="w-full h-48 object-cover"
+                      />
+                      <div className="p-3 text-center text-sm font-medium text-gray-700">
+                        Áo Gala Team BÉT
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold mb-2 text-purple-500">HÀNH LÝ</h4>
+                  <div className="text-gray-700">
+                    <p>Mỗi thành viên được mang theo:</p>
+                    <ul className="space-y-2 pl-4 mt-2">
+                      <li className="flex items-center gap-2">
+                        <CheckSquare className="w-4 h-4 text-purple-600" />
+                        1 kiện 7kg xách tay
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckSquare className="w-4 h-4 text-purple-600" />
+                        1 kiện 10kg ký gửi
+                      </li>
+                    </ul>
+                    <p className="mt-2 italic text-sm">Trường hợp hành lý nhiều hơn số kg quy định, thành viên tự deal với Buddy của mình nhe</p>
+                    <p className="mt-2 italic text-sm">Lưu Ý: Vietjet Air yêu cầu tất cả pin dự phòng phải để ra ngoài trong suốt chuyến bay và không cắm charge bất kỳ hình thức nào</p>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -833,6 +869,14 @@ function App() {
                     <li className="flex items-center gap-2">
                       <CheckSquare className="w-4 h-4 text-purple-600" />
                       Cờ bạc
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckSquare className="w-4 h-4 text-purple-600" />
+                      Bánh kẹo
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckSquare className="w-4 h-4 text-purple-600" />
+                      Thanh năng lượng
                     </li>
                   </ul>
                 </div>
