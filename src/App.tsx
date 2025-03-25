@@ -557,9 +557,9 @@ function App() {
                 title: "Ngày Trở Về",
                 events: [
                   { time: "06:30", text: "Dậy ăn sáng & dọn dẹp hành lý" },
-                  { time: "08:30", text: "Tập trung tại ngã 3 'Làng Du lịch tốt nhất thế giới'" },
+                  { time: "08:30", text: "Tập trung tại ngã 3 'Làng Du lịch tốt nhất thế giới'. Tham gia chương trình từ thiện" },
                   { time: "10:30", text: "Check-out & di chuyển về Đồng Hới (xe Oxalis)" },
-                  { time: "12:00", text: "Ăn Trưa Phong Nha (Nhà hàng Hải sản) - Dạo phố" },
+                  { time: "12:00", text: "Ăn Trưa Biển Nhật Lệ (Nhà hàng Hải sản) - Tắm biển" },
                   { time: "17:00", text: "Di chuyển ra sân bay" },
                   { time: "19:00", text: "Chuyến bay về TSN" }
                 ]
