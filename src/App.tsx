@@ -506,10 +506,10 @@ function App() {
                 title: "Ngày Di Chuyển",
                 events: [
                   { time: "05:00", text: "Tập kết sân bay TSN" },
-                  { time: "08:35", text: "Đáp Sân bay Đồng Hới - Quảng Bình" },
-                  { time: "10:30", text: "Tour Hang Tối" },
-                  { time: "12:30", text: "Ăn Trưa Nhà hàng Dark Cave (set menu)" },
-                  { time: "16:00", text: "Kết thúc tour Hang Tối, di chuyển về Phong Nha (xe Oxalis)" },
+                  { time: "08:35", text: "Đáp Quảng Bình" },
+                  { time: "10:30", text: "Tour Hang Tối - Jungle Boss" },
+                  { time: "12:30", text: "Ăn Trưa Nhà hàng Dark Cave" },
+                  { time: "16:00", text: "Kết thúc tour Hang Tối, di chuyển về Tân Hoá - xe Oxalis" },
                   { time: "18:30", text: "Ăn tối & nghỉ ngơi" }
                 ]
               },
@@ -659,7 +659,6 @@ function App() {
                     </li>
                   </ul>
                   <p className="mt-2 italic text-sm">Trường hợp hành lý nhiều hơn số kg quy định, thành viên tự deal với Buddy của mình nhe</p>
-                  <p className="mt-2 italic text-sm">Lưu ý: Vietjet Air yêu cầu nếu mang pin dự phòng lên máy bay phải để ra ngoài và không cắm charge pin hay charge điện thoại suốt chuyến bay.</p>
                 </div>
               </div>
             </Card>
