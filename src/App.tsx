@@ -238,7 +238,7 @@ function App() {
               <Card.Body className="space-y-6">
                 <div className="prose prose-blue">
                   <p className="text-gray-700 leading-relaxed">
-                    Yêu cầu tất cả các đội có mặt tại Điểm tập kết (Bến xe buýt Phong Nha) trước 13:00 ngày 27/03/2025 để điểm danh. Sẽ không có bất kỳ nhiệm vụ nào trong ngày đầu tiên này, các đội chơi khi đặt chân đến đây sẽ có cơ hội tận hưởng không khí mát mẻ, trải nghiệm sự yên bình của chốn làng quê, trước khi điểm danh & lên xe di chuyển lên Tân Hóa.
+                    Yêu cầu tất cả các đội có mặt tại Điểm tập kết (Tượng đài Thanh niên xung phong - Thị trấn Phong Nha, huyện Bố Trạch, tỉnh Quảng Bình) trước 13:00 ngày 27/03/2025 để điểm danh. Sẽ không có bất kỳ nhiệm vụ nào trong ngày đầu tiên này, các đội chơi khi đặt chân đến đây sẽ có cơ hội tận hưởng không khí mát mẻ, trải nghiệm sự yên bình của chốn làng quê, trước khi điểm danh & lên xe di chuyển lên Tân Hóa.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     Tại Tân Hóa, các đội sẽ tham gia buổi họp hướng dẫn về an toàn trước cuộc đua, sau đó sẽ trở về nhà người dân địa phương dùng bữa tối và nghỉ ngơi.
@@ -518,9 +518,9 @@ function App() {
                 icon: <MapPin className="w-5 h-5 text-green-600" />,
                 title: "Ngày Tập Kết",
                 events: [
-                  { time: "08:00", text: "Ăn sáng, dạo quanh Phong Nha" },
+                  { time: "07:00", text: "Ăn sáng, dạo quanh Phong Nha" },
                   { time: "11:30", text: "Ăn Trưa & check-out" },
-                  { time: "13:00", text: "Tập trung Điểm Tập Kết (Bến xe bus Phong Nha)" },
+                  { time: "13:00", text: "Tập trung Điểm Tập Kết: Tượng đài Thanh niên xung phong - Thị trấn Phong Nha, huyện Bố Trạch, tỉnh Quảng Bình" },
                   { time: "16:00", text: "Briefing Tân Hoá" },
                   { time: "17:30", text: "Check-in Camp" },
                   { time: "18:30", text: "Dinner & Nghỉ ngơi" }
